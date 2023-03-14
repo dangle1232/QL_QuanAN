@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <Body>
+    <ReportItems>
+      <Textbox Name="Textbox2">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>DANH SÁCH TÀI KHOẢN QUẢN LÝ</Value>
+                <Style>
+                  <FontSize>16pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox2</rd:DefaultName>
+        <Top>0.465in</Top>
+        <Left>1.25249in</Left>
+        <Height>0.425in</Height>
+        <Width>4.96667in</Width>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Image Name="Image1">
+        <Source>Embedded</Source>
+        <Value>icons8_access_32</Value>
+        <Sizing>FitProportional</Sizing>
+        <Top>0.06773cm</Top>
+        <Left>5.8025in</Left>
+        <Height>0.55in</Height>
+        <Width>0.54167in</Width>
+        <ZIndex>1</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+        </Style>
+      </Image>
+      <Textbox Name="Textbox6">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Quán ăn nhanh TECH/CENTER FOOD</Value>
+                <Style>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>Đ/c: HUTECH UNIVERSITY</Value>
+                <Style>
+                  <FontFamily>Times New Roman</FontFamily>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style />
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox6</rd:DefaultName>
+        <Top>0.06773cm</Top>
+        <Left>0.3958cm</Left>
+        <Height>1.15562cm</Height>
+        <Width>8.29763cm</Width>
+        <ZIndex>2</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Tablix Name="Tablix3">
+        <TablixBody>
+          <TablixColumns>
+            <TablixColumn>
+              <Width>1.65556in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1.65556in</Width>
+            </TablixColumn>
+            <TablixColumn>
+              <Width>1.65556in</Width>
+            </TablixColumn>
+          </TablixColumns>
+          <TablixRows>
+            <TablixRow>
+              <Height>0.35417in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox12">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Tên tài khoản</Value>
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox12</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>LightGreen</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox14">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Tên hiển thị</Value>
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox14</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>LightGreen</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox16">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>Loại tài khoản</Value>
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox16</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>LightGreen</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.35417in</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="UserName">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!UserName.Value</Value>
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>UserName</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="DisplayName">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!DisplayName.Value</Value>
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>DisplayName</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Type">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Fields!Type.Value</Value>
+                              <Style />
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Type</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>LightGrey</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+          </TablixRows>
+        </TablixBody>
+        <TablixColumnHierarchy>
+          <TablixMembers>
+            <TablixMember />
+            <TablixMember />
+            <TablixMember />
+          </TablixMembers>
+        </TablixColumnHierarchy>
+        <TablixRowHierarchy>
+          <TablixMembers>
+            <TablixMember>
+              <KeepWithGroup>After</KeepWithGroup>
+            </TablixMember>
+            <TablixMember>
+              <Group Name="Details1" />
+            </TablixMember>
+          </TablixMembers>
+        </TablixRowHierarchy>
+        <DataSetName>DataSetTaiKhoan</DataSetName>
+        <Top>1.26499in</Top>
+        <Left>1.25249in</Left>
+        <Height>0.70834in</Height>
+        <Width>4.96668in</Width>
+        <ZIndex>3</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+          <TopBorder>
+            <Color>Black</Color>
+            <Style>Solid</Style>
+            <Width>1pt</Width>
+          </TopBorder>
+          <BottomBorder>
+            <Color>Black</Color>
+            <Style>Solid</Style>
+            <Width>1pt</Width>
+          </BottomBorder>
+          <LeftBorder>
+            <Color>Black</Color>
+            <Style>Solid</Style>
+            <Width>1pt</Width>
+          </LeftBorder>
+          <RightBorder>
+            <Color>Black</Color>
+            <Style>Solid</Style>
+            <Width>1pt</Width>
+          </RightBorder>
+        </Style>
+      </Tablix>
+    </ReportItems>
+    <Height>2.23958in</Height>
+    <Style />
+  </Body>
+  <Width>6.82292in</Width>
+  <Page>
+    <PageHeight>29.7cm</PageHeight>
+    <PageWidth>21cm</PageWidth>
+    <LeftMargin>2cm</LeftMargin>
+    <RightMargin>2cm</RightMargin>
+    <TopMargin>2cm</TopMargin>
+    <BottomMargin>2cm</BottomMargin>
+    <ColumnSpacing>0.13cm</ColumnSpacing>
+    <Style />
+  </Page>
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DoAn_QLTechCenterFoodDataSet">
+      <ConnectionProperties>
+        <DataProvider>System.Data.DataSet</DataProvider>
+        <ConnectString>/* Local Connection */</ConnectString>
+      </ConnectionProperties>
+      <rd:DataSourceID>81b55cc8-5f5d-4154-9c40-4b0d7b3cb150</rd:DataSourceID>
+    </DataSource>
+  </DataSources>
+  <DataSets>
+    <DataSet Name="DataSetTaiKhoan">
+      <Query>
+        <DataSourceName>DoAn_QLTechCenterFoodDataSet</DataSourceName>
+        <CommandText>/* Local Query */</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="UserName">
+          <DataField>UserName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="DisplayName">
+          <DataField>DisplayName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PassWord">
+          <DataField>PassWord</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Type">
+          <DataField>Type</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+      </Fields>
+      <rd:DataSetInfo>
+        <rd:DataSetName>DoAn_QLTechCenterFoodDataSet</rd:DataSetName>
+        <rd:SchemaPath>F:\C#\DOAN_QLQuanAn\DOAN_QLQuanAn\DoAn_QLTechCenterFoodDataSet.xsd</rd:SchemaPath>
+        <rd:TableName>Account</rd:TableName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+        <rd:TableAdapterName>AccountTableAdapter</rd:TableAdapterName>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <EmbeddedImages>
+    <EmbeddedImage Name="icons8_access_32">
+      <MIMEType>image/png</MIMEType>
+      <ImageData>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</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <rd:ReportUnitType>Cm</rd:ReportUnitType>
+  <rd:ReportID>b1bf4915-8ce9-47e5-a7d8-3b578f21a7c8</rd:ReportID>
+</Report>
